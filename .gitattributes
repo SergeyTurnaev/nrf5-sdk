@@ -5,103 +5,103 @@
 *.[bB][aA][tT] text eol=crlf
 
 # Бинарные файлы, образы прошивок и ключи сохраняются побайтово.
-*.7[zZ] binary
-*.[aA] binary
-*.[aA][pP][kK] binary
-*.[aA][pP][pP][iI][mM][aA][gG][eE] binary
-*.[aA][rR][jJ] binary
-*.[aA][xX][fF] binary
-*.[bB][iI][nN] binary
-*.[bB][mM][pP] binary
-*.[bB][zZ]2 binary
-*.[cC][dD][rR] binary
-*.[cC][eE][rR] binary
-*.[cC][fF][bB] binary
-*.[cC][hH][mM] binary
-*.[cC][rR][lL] binary
-*.[cC][rR][tT] binary
-*.[cC][tT][bB] binary
-*.[dD][aA][tT] binary
-*.[dD][eE][bB] binary
-*.[dD][eE][rR] binary
-*.[dD][fF][uU] binary
-*.[dD][lL][lL] binary
-*.[dD][mM][gG] binary
-*.[dD][oO][cC] binary
-*.[dD][oO][cC][xX] binary
-*.[dD][wW][gG] binary
-*.[dD][xX][fF] binary
-*.[eE][oO][tT] binary
-*.[eE][pP][sS] binary
-*.[eE][xX][eE] binary
-*.[fF][lL][aA][cC] binary
-*.[fF][wW] binary
-*.[gG][iI][fF] binary
-*.[gG][zZ] binary
-*.[hH][eE][xX] binary
-*.[iI][cC][cC] binary
-*.[iI][cC][oO] binary
-*.[iI][dD][bB] binary
-*.[iI][lL][kK] binary
-*.[iI][mM][gG] binary
-*.[iI][sS][oO] binary
-*.[jJ][aA][rR] binary
-*.[jJ][pP][eE][gG] binary
-*.[jJ][pP][gG] binary
-*.[kK][eE][yY] binary
-*.[kK][eE][yY][sS][tT][oO][rR][eE] binary
-*.[lL][iI][bB] binary
-*.[lL][zZ] binary
-*.[lL][zZ][mM][aA] binary
-*.[mM]4[aA] binary
-*.[mM][dD][bB] binary
-*.[mM][iI][dD] binary
-*.[mM][kK][vV] binary
-*.[mM][oO][vV] binary
-*.[mM][pP]3 binary
-*.[mM][pP]4 binary
-*.[mM][sS][iI] binary
-*.[oO] binary
-*.[oO][bB][jJ] binary
-*.[oO][dD][bB] binary
-*.[oO][dD][gG] binary
-*.[oO][dD][pP] binary
-*.[oO][dD][sS] binary
-*.[oO][dD][tT] binary
-*.[oO][tT][fF] binary
-*.[oO][uU][tT] binary
-*.[pP]12 binary
-*.[pP]7[bB] binary
-*.[pP]7[sS] binary
-*.[pP][dD][bB] binary
-*.[pP][dD][fF] binary
-*.[pP][eE][mM] binary
-*.[pP][fF][xX] binary
-*.[pP][nN][gG] binary
-*.[pP][pP][kK] binary
-*.[pP][pP][tT] binary
-*.[pP][pP][tT][xX] binary
-*.[pP][sS][dD] binary
-*.[rR][aA][rR] binary
-*.[rR][aA][wW] binary
-*.[rR][pP][mM] binary
-*.[sS][oO] binary
-*.[sS][tT][lL] binary
-*.[tT][aA][rR] binary
-*.[tT][bB][zZ] binary
-*.[tT][gG][zZ] binary
-*.[tT][iI][fF] binary
-*.[tT][iI][fF][fF] binary
-*.[tT][sS][sS] binary
-*.[tT][sS][sS][fF][wW] binary
-*.[tT][tT][fF] binary
-*.[wW][aA][vV] binary
-*.[wW][eE][bB][mM] binary
-*.[wW][eE][bB][pP] binary
-*.[wW][oO][fF][fF] binary
-*.[wW][oO][fF][fF]2 binary
-*.[xX][lL][sS] binary
-*.[xX][lL][sS][xX] binary
-*.[xX][zZ] binary
-*.[zZ][iI][pP] binary
-*.[zZ][sS][tT] binary
+*.7[zZ] binary !eol
+*.[aA] binary !eol
+*.[aA][pP][kK] binary !eol
+*.[aA][pP][pP][iI][mM][aA][gG][eE] binary !eol
+*.[aA][rR][jJ] binary !eol
+*.[aA][xX][fF] binary !eol
+*.[bB][iI][nN] binary !eol
+*.[bB][mM][pP] binary !eol
+*.[bB][zZ]2 binary !eol
+*.[cC][dD][rR] binary !eol
+*.[cC][eE][rR] binary !eol
+*.[cC][fF][bB] binary !eol
+*.[cC][hH][mM] binary !eol
+*.[cC][rR][lL] binary !eol
+*.[cC][rR][tT] binary !eol
+*.[cC][tT][bB] binary !eol
+*.[dD][aA][tT] binary !eol
+*.[dD][eE][bB] binary !eol
+*.[dD][eE][rR] binary !eol
+*.[dD][fF][uU] binary !eol
+*.[dD][lL][lL] binary !eol
+*.[dD][mM][gG] binary !eol
+*.[dD][oO][cC] binary !eol
+*.[dD][oO][cC][xX] binary !eol
+*.[dD][wW][gG] binary !eol
+*.[dD][xX][fF] binary !eol
+*.[eE][oO][tT] binary !eol
+*.[eE][pP][sS] binary !eol
+*.[eE][xX][eE] binary !eol
+*.[fF][lL][aA][cC] binary !eol
+*.[fF][wW] binary !eol
+*.[gG][iI][fF] binary !eol
+*.[gG][zZ] binary !eol
+*.[hH][eE][xX] binary !eol
+*.[iI][cC][cC] binary !eol
+*.[iI][cC][oO] binary !eol
+*.[iI][dD][bB] binary !eol
+*.[iI][lL][kK] binary !eol
+*.[iI][mM][gG] binary !eol
+*.[iI][sS][oO] binary !eol
+*.[jJ][aA][rR] binary !eol
+*.[jJ][pP][eE][gG] binary !eol
+*.[jJ][pP][gG] binary !eol
+*.[kK][eE][yY] binary !eol
+*.[kK][eE][yY][sS][tT][oO][rR][eE] binary !eol
+*.[lL][iI][bB] binary !eol
+*.[lL][zZ] binary !eol
+*.[lL][zZ][mM][aA] binary !eol
+*.[mM]4[aA] binary !eol
+*.[mM][dD][bB] binary !eol
+*.[mM][iI][dD] binary !eol
+*.[mM][kK][vV] binary !eol
+*.[mM][oO][vV] binary !eol
+*.[mM][pP]3 binary !eol
+*.[mM][pP]4 binary !eol
+*.[mM][sS][iI] binary !eol
+*.[oO] binary !eol
+*.[oO][bB][jJ] binary !eol
+*.[oO][dD][bB] binary !eol
+*.[oO][dD][gG] binary !eol
+*.[oO][dD][pP] binary !eol
+*.[oO][dD][sS] binary !eol
+*.[oO][dD][tT] binary !eol
+*.[oO][tT][fF] binary !eol
+*.[oO][uU][tT] binary !eol
+*.[pP]12 binary !eol
+*.[pP]7[bB] binary !eol
+*.[pP]7[sS] binary !eol
+*.[pP][dD][bB] binary !eol
+*.[pP][dD][fF] binary !eol
+*.[pP][eE][mM] binary !eol
+*.[pP][fF][xX] binary !eol
+*.[pP][nN][gG] binary !eol
+*.[pP][pP][kK] binary !eol
+*.[pP][pP][tT] binary !eol
+*.[pP][pP][tT][xX] binary !eol
+*.[pP][sS][dD] binary !eol
+*.[rR][aA][rR] binary !eol
+*.[rR][aA][wW] binary !eol
+*.[rR][pP][mM] binary !eol
+*.[sS][oO] binary !eol
+*.[sS][tT][lL] binary !eol
+*.[tT][aA][rR] binary !eol
+*.[tT][bB][zZ] binary !eol
+*.[tT][gG][zZ] binary !eol
+*.[tT][iI][fF] binary !eol
+*.[tT][iI][fF][fF] binary !eol
+*.[tT][sS][sS] binary !eol
+*.[tT][sS][sS][fF][wW] binary !eol
+*.[tT][tT][fF] binary !eol
+*.[wW][aA][vV] binary !eol
+*.[wW][eE][bB][mM] binary !eol
+*.[wW][eE][bB][pP] binary !eol
+*.[wW][oO][fF][fF] binary !eol
+*.[wW][oO][fF][fF]2 binary !eol
+*.[xX][lL][sS] binary !eol
+*.[xX][lL][sS][xX] binary !eol
+*.[xX][zZ] binary !eol
+*.[zZ][iI][pP] binary !eol
+*.[zZ][sS][tT] binary !eol
