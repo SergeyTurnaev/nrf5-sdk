@@ -197,7 +197,8 @@ BaseType_t xPortStartScheduler( void )
         ucMaxPriorityValue = *pucFirstUserPriorityRegister;
 
         /* Use the same mask on the maximum system call priority. */
-        ucMaxSysCallPriority = configMAX_SYSCALL_INTERRUPT_PRIORITY & ucMaxPriorityValue;
+        // Nordic хранит приоритет без сдвига; NVIC->IP содержит сдвинутый байт.
+        ucMaxSysCallPriority = ( configMAX_SYSCALL_INTERRUPT_PRIORITY << ( 8 - configPRIO_BITS ) ) & ucMaxPriorityValue;
 
         /* Calculate the maximum acceptable priority group value for the number
         of bits read back. */

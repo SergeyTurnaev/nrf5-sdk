@@ -117,7 +117,8 @@ void xPortPendSVHandler( void )
     "                                       \n"
     "   str r0, [r2]                        \n" /* Save the new top of stack into the first member of the TCB. */
     "                                       \n"
-    "   stmdb sp!, {r3}                     \n"
+    /* AAPCS: keep MSP aligned to 8 bytes across the C function call. */
+    "   stmdb sp!, {r0, r3}                 \n"
     "   mov r0, %0                          \n"
     "   msr basepri, r0                     \n"
     "   dsb                                 \n"
@@ -125,7 +126,7 @@ void xPortPendSVHandler( void )
     "   bl vTaskSwitchContext               \n"
     "   mov r0, #0                          \n"
     "   msr basepri, r0                     \n"
-    "   ldmia sp!, {r3}                     \n"
+    "   ldmia sp!, {r0, r3}                 \n"
     "                                       \n"
     "   ldr r1, [r3]                        \n" /* The first item in pxCurrentTCB is the task top of stack. */
     "   ldr r0, [r1]                        \n"
