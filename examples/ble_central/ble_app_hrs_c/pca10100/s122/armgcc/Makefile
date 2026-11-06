@@ -368,8 +368,8 @@ flash: default
 
 # Flash softdevice
 flash_softdevice:
-	@echo Flashing: s122_nrf52_8.0.0_softdevice.hex
-	nrfjprog -f nrf52 --program $(SDK_ROOT)/components/softdevice/s122/hex/s122_nrf52_8.0.0_softdevice.hex --sectorerase
+	@echo Flashing: s122_nrf52_8.1.1_softdevice.hex
+	nrfjprog -f nrf52 --program $(SDK_ROOT)/components/softdevice/s122/hex/s122_nrf52_8.1.1_softdevice.hex --sectorerase
 	nrfjprog -f nrf52 --reset
 
 erase:

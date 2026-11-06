@@ -2634,7 +2634,7 @@
               </FileOption>            </File>          </Files>
         </Group>      </Groups>
     </Target>    <Target>
-      <TargetName>flash_s140_nrf52_7.2.0_softdevice</TargetName>
+      <TargetName>flash_s140_nrf52_7.3.0_softdevice</TargetName>
       <ToolsetNumber>0x4</ToolsetNumber>
       <ToolsetName>ARM-ADS</ToolsetName>
       <TargetOption>
@@ -2672,7 +2672,7 @@
             <InvalidFlash>1</InvalidFlash>
           </TargetStatus>
           <OutputDirectory>..\..\..\..\..\..\components\softdevice\s140\hex\</OutputDirectory>
-          <OutputName>s140_nrf52_7.2.0_softdevice.hex</OutputName>
+          <OutputName>s140_nrf52_7.3.0_softdevice.hex</OutputName>
           <CreateExecutable>1</CreateExecutable>
           <CreateLib>0</CreateLib>
           <CreateHexFile>1</CreateHexFile>
@@ -5266,19 +5266,19 @@
     <filter>
       <targetInfos/>
     </filter>    <package name="CMSIS" url="http://www.keil.com/pack/" vendor="ARM" version="5.6.0">
-      <targetInfos>        <targetInfo name="nrf52840_xxaa" versionMatchMode="fixed"/>        <targetInfo excluded="1" name="flash_s140_nrf52_7.2.0_softdevice"/>      </targetInfos>
+      <targetInfos>        <targetInfo name="nrf52840_xxaa" versionMatchMode="fixed"/>        <targetInfo excluded="1" name="flash_s140_nrf52_7.3.0_softdevice"/>      </targetInfos>
     </package>
     <package name="nRF_DeviceFamilyPack" url="http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_DeviceFamilyPack/" vendor="NordicSemiconductor" version="8.40.3">
-      <targetInfos>        <targetInfo name="nrf52840_xxaa" versionMatchMode="fixed"/>        <targetInfo excluded="1" name="flash_s140_nrf52_7.2.0_softdevice"/>      </targetInfos>
+      <targetInfos>        <targetInfo name="nrf52840_xxaa" versionMatchMode="fixed"/>        <targetInfo excluded="1" name="flash_s140_nrf52_7.3.0_softdevice"/>      </targetInfos>
     </package>  </packages>
   <apis/>
   <components>    <component Cclass="CMSIS" Cgroup="CORE" Cvendor="ARM" Cversion="5.3.0" condition="CMSIS Core">
       <package name="CMSIS" url="http://www.keil.com/pack/" vendor="ARM" version="5.6.0"/>
-      <targetInfos>        <targetInfo name="nrf52840_xxaa" versionMatchMode="fixed"/>        <targetInfo excluded="1" name="flash_s140_nrf52_7.2.0_softdevice"/>      </targetInfos>
+      <targetInfos>        <targetInfo name="nrf52840_xxaa" versionMatchMode="fixed"/>        <targetInfo excluded="1" name="flash_s140_nrf52_7.3.0_softdevice"/>      </targetInfos>
     </component>
     <component Cclass="Device" Cgroup="Startup" Cvendor="NordicSemiconductor" Cversion="8.40.3" condition="nRF5x Series CMSIS Device">
       <package name="nRF_DeviceFamilyPack" url="http://developer.nordicsemi.com/nRF51_SDK/pieces/nRF_DeviceFamilyPack/" vendor="NordicSemiconductor" version="8.40.3"/>
-      <targetInfos>        <targetInfo name="nrf52840_xxaa"/>        <targetInfo excluded="1" name="flash_s140_nrf52_7.2.0_softdevice"/>      </targetInfos>
+      <targetInfos>        <targetInfo name="nrf52840_xxaa"/>        <targetInfo excluded="1" name="flash_s140_nrf52_7.3.0_softdevice"/>      </targetInfos>
     </component>  </components>
   <files>  </files>
 </RTE>
